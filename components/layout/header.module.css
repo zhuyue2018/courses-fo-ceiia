@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem 10%; /* padding(内边距)上下为1rem(相对单位),左右为其对应宽度的10%(百分比) */
+  height: 5rem;
+  background-color: #202020;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Fira', sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 设置垂直居中对齐 */
+  color: #94fdfd;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #94fdfd;
+}
+
+.navigation {
+  display: flex;
+  flex-direction:row;
+}
+  
+.navigation a {
+  text-decoration: none;
+  color: #74dacc;
+  font-size: 1rem;
+}
+
+.navigation div {
+  text-decoration: none;
+  color: #74dacc;
+  font-size: 1rem;
+  margin: 1rem;
+  text-align: center;
+  vertical-align: center;
+}
+
+/* @media是CSS的媒体查询规则。它可以根据不同的媒体条件来加载不同的CSS样式。 */
+@media (min-width: 768px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .navigation a {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "allCourses": [
+    {
+      "id": "Next.js_for_everyone",
+      "title": "Next.js for everyone",
+      "image": "https://cdn.auth0.com/blog/next3/logo.png",
+      "description": "Next.js for everyone is really a wonderful courses",
+      "date": "2023-04-08",
+      "author": "Rieux",
+      "isFeatured": true
+    },
+    {
+      "id": "Poetries_for_everyone",
+      "title": "Poetries for everyone",
+      "image": "https://carrillomartha.com/poetry.jpg",
+      "description": "Poetries for everyone is really a wonderful courses",
+      "date": "2023-05-08",
+      "author": "Rieux",
+      "isFeatured": false
+    }
+  ]
+}
