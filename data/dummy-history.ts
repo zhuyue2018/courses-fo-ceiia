@@ -51,10 +51,12 @@ export function getHistoryByUserId(userId: string): History[] {
 }
 
 export function getHistoryByYearAndMonth(year: number, month: number) {
-  // console.info("year:"+year)
-  // console.info("month:"+month)
+  console.info("year:"+year)
+  console.info("month:"+month)
   return DUMMY_HISTORY.filter((history)=>{
     const date = new Date(history.date);
+    console.info("date.getFullYear():"+date.getFullYear())
+    console.info("date.getMonth():"+date.getMonth())
     return date.getFullYear() === year && date.getMonth() === month - 1;
   });
 }

@@ -27,6 +27,7 @@ export default function Header() {
           <div><Link href="/2023/05">Go to courses published in 2023-05</Link></div>
           <div><Link href={{ pathname: "/favourate" }}>My favourates</Link></div>
           <div><Link href={{ pathname: "/history" }}>Learning history</Link></div>
+          <div><Link href={{ pathname: "/user-profile" }}>user-profile</Link></div>
         </nav>
       </header>
     </>
